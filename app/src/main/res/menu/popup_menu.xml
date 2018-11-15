@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.andoidsrc.popupmenu.MainActivity" >
+
+    <item
+        android:id="@+id/lang_java"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+        android:title="Java"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/lang_android"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+        android:title="Android"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/lang_ruby"
+        android:title="Ruby"
+        android:visible="true"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+        />
+    <item
+        android:id="@+id/lang_python"
+        android:title="Python"
+        android:visible="true"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+         />
+</menu>
